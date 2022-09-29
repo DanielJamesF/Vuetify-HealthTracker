@@ -1,7 +1,7 @@
 <template>
   <v-app :style="{background: $vuetify.theme.themes.light.background}">
     <v-layout row>
-      <v-flex md-8>
+      <v-flex md8>
         <v-app :style="{background: $vuetify.theme.themes.dark.background}" class="rounded-tr-xl rounded-br--xl">
           <v-container>
             <v-row>
@@ -109,7 +109,7 @@
           </v-container>
         </v-app>
       </v-flex>
-      <v-flex md-4>
+      <v-flex md4>
         <v-app :style="{background: $vuetify.theme.themes.light.background}">
           <v-container>
             <v-row>
@@ -215,8 +215,49 @@
                     <v-list-item-avatar tile size="30">
                       <v-icon size="30">mdi-tooth</v-icon>
                     </v-list-item-avatar>
-
-                    
+                    <v-list-iitem-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Dentist <br>
+                        <h6>8:00 - 9:30</h6>
+                        <h6>Dr. Alex Brown(cab 39)</h6>
+                      </v-list-item-title>
+                    </v-list-iitem-content>                    
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="12">
+                <v-card class="mx-12 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-xl mt-n4 py-4" color="teal lighten-5" flat>
+                  <v-list-item three-line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30">fas fa-heartbeat</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Cardiologist <br>
+                        <h6>9:45 - 11:50</h6>
+                        <h6>dr. Elika Clark(cab 61)</h6>
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="12">
+                <v-btn text>Your Treatment
+                  <v-icon>mdi-chevron-down</v-icon>
+                </v-btn>
+              </v-col>
+              <v-col cols="12" sm="12">
+                <v-card class="mx-12 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-xl mt-n4" color="teal lighten-5" flat>
+                  <v-list-item three-line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30" color="teal">mdi-pill</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Gentle Iron <br>
+                        <h6><span class="teal--text">2 capsules</span>with meals every day</h6>
+                      </v-list-item-title>
+                    </v-list-item-content>
                   </v-list-item>
                 </v-card>
               </v-col>
